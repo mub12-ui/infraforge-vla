@@ -1,0 +1,14 @@
+# Core simulation & robotics stack
+lerobot[aloha,pusht]
+mujoco>=3.0.0,<3.9.0
+
+# Intel inference optimization
+openvino==2026.3.0
+
+# Model export (for the benchmark script's ONNX export step)
+torch
+
+# Note on versions: lerobot pulls in its own pinned versions of gymnasium,
+# dm_control, numpy, etc. -- see the full resolved list with:
+#   pip freeze > requirements-lock.txt
+# after installation, if exact-version reproducibility is needed.
