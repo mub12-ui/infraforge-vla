@@ -1,0 +1,139 @@
+{
+  "instruction": "pick up the mug with arm A",
+  "n_seeds": 10,
+  "success_threshold": 2,
+  "randomization_range": {
+    "x": [
+      -0.025,
+      0.015
+    ],
+    "y": [
+      -0.015,
+      0.025
+    ]
+  },
+  "results": [
+    {
+      "seed": 42,
+      "offset_x": 0.0006,
+      "offset_y": -0.014,
+      "box_pos": [
+        0.20057707193831537,
+        0.48600043020890665,
+        0.05
+      ],
+      "max_reward": 0,
+      "success": false
+    },
+    {
+      "seed": 43,
+      "offset_x": -0.0235,
+      "offset_y": 0.0128,
+      "box_pos": [
+        0.17654207357349522,
+        0.5128489729054821,
+        0.05
+      ],
+      "max_reward": 2,
+      "success": true
+    },
+    {
+      "seed": 44,
+      "offset_x": -0.0087,
+      "offset_y": 0.0067,
+      "box_pos": [
+        0.19134143517017976,
+        0.5066788803641838,
+        0.05
+      ],
+      "max_reward": 2,
+      "success": true
+    },
+    {
+      "seed": 45,
+      "offset_x": -0.0141,
+      "offset_y": 0.0045,
+      "box_pos": [
+        0.18587501657536365,
+        0.5045211283140363,
+        0.05
+      ],
+      "max_reward": 2,
+      "success": true
+    },
+    {
+      "seed": 46,
+      "offset_x": 0.0105,
+      "offset_y": 0.001,
+      "box_pos": [
+        0.21053072305809953,
+        0.5009997758388405,
+        0.05
+      ],
+      "max_reward": 2,
+      "success": true
+    },
+    {
+      "seed": 47,
+      "offset_x": -0.0109,
+      "offset_y": 0.0022,
+      "box_pos": [
+        0.18907385023311532,
+        0.502207449839604,
+        0.05
+      ],
+      "max_reward": 2,
+      "success": true
+    },
+    {
+      "seed": 48,
+      "offset_x": -0.0031,
+      "offset_y": -0.0097,
+      "box_pos": [
+        0.1969263131366532,
+        0.490275658535035,
+        0.05
+      ],
+      "max_reward": 2,
+      "success": true
+    },
+    {
+      "seed": 49,
+      "offset_x": -0.0223,
+      "offset_y": 0.0015,
+      "box_pos": [
+        0.17767535905371007,
+        0.5015297126571304,
+        0.05
+      ],
+      "max_reward": 2,
+      "success": true
+    },
+    {
+      "seed": 50,
+      "offset_x": -0.0051,
+      "offset_y": -0.0044,
+      "box_pos": [
+        0.1949014627503441,
+        0.4956469489229016,
+        0.05
+      ],
+      "max_reward": 2,
+      "success": true
+    },
+    {
+      "seed": 51,
+      "offset_x": -0.0153,
+      "offset_y": 0.0051,
+      "box_pos": [
+        0.18474071050837348,
+        0.5050883595801262,
+        0.05
+      ],
+      "max_reward": 2,
+      "success": true
+    }
+  ],
+  "n_success": 9,
+  "success_rate": 0.9
+}
