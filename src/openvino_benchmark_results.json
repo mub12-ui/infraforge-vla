@@ -1,0 +1,25 @@
+{
+  "available_devices": [
+    "CPU",
+    "GPU"
+  ],
+  "precision": "FP32 (placeholder model)",
+  "results": [
+    {
+      "device": "CPU",
+      "mean_latency_ms": 0.49420499766711146,
+      "p50_latency_ms": 0.41799999598879367,
+      "p95_latency_ms": 0.9793100121896711,
+      "throughput_fps": 2023.4518159882793,
+      "n_runs": 100
+    },
+    {
+      "device": "GPU",
+      "mean_latency_ms": 2.011183000577148,
+      "p50_latency_ms": 1.9114000024273992,
+      "p95_latency_ms": 2.9200400080299,
+      "throughput_fps": 497.2197953707,
+      "n_runs": 100
+    }
+  ]
+}

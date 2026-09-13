@@ -19,6 +19,7 @@ i7-1185G7 for real CPU/iGPU numbers).
 """
 
 import time
+import json
 import numpy as np
 import openvino as ov
 
@@ -123,6 +124,14 @@ def main():
     print("Swap build_dummy_model_onnx() for the real trained/exported policy")
     print("once fine-tuning is complete, and consider INT8 quantization via")
     print("OpenVINO's NNCF for a real precision comparison row.")
+
+    with open("openvino_benchmark_results.json", "w") as f:
+        json.dump({
+            "available_devices": available_devices,
+            "precision": "FP32 (placeholder model)",
+            "results": results,
+        }, f, indent=2)
+    print("\nWrote openvino_benchmark_results.json")
 
 
 if __name__ == "__main__":
